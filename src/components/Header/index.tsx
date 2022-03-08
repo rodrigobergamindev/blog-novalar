@@ -1,12 +1,14 @@
 
 import styles from './styles.module.scss'
 import Image from 'next/image'
+import { Nav } from '../Navigation'
 
 export function Header() {
 
 
 
     return (
+        <>
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
 
@@ -22,10 +24,12 @@ export function Header() {
                     <button type="button" className={styles.buttonSearch}>Buscar</button>
                 </div>
 
-
-            
-
             </div>
+
+
         </header>
+
+        <Nav/>
+        </>
     )
 }

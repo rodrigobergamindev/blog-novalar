@@ -1,5 +1,8 @@
 
 import Head from 'next/head';
+import { Highlights } from '../components/Sections/Highlights';
+import { Populars } from '../components/Sections/Populars';
+import { SectionOne } from '../components/Sections/SectionOne'
 
 
 // Formas de fazer uma chamada API no Next
@@ -17,6 +20,9 @@ export default function Home() {
     
     <main className="contentContainer">
 
+    <SectionOne/>
+    <Highlights/>
+    <Populars/>
 
     </main>
     </>

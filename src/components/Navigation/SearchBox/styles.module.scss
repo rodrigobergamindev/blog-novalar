@@ -1,0 +1,38 @@
+
+.searchBox {
+    color: var(--gray-900);
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+
+    background: transparent;
+    border-bottom: 1px solid var(--blue-900);
+    padding: 0.25rem;
+    width: 300px;
+
+    .searchTerm {
+        outline: none;
+        border: none;
+     
+        background: transparent;
+        font-size: 16px;
+        color: var(--blue-900);
+    }
+
+    
+    .buttonSearch {
+        outline: none;
+        border: none;
+        background: transparent;
+    }
+
+    .searchTerm::placeholder {
+        color: var(--blue-900);
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-weight: 600;
+      }
+
+    
+}
