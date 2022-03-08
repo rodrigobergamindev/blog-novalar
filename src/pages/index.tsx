@@ -2,7 +2,9 @@
 import Head from 'next/head';
 import { Highlights } from '../components/Sections/Highlights';
 import { Populars } from '../components/Sections/Populars';
+import { PopularsTwo } from '../components/Sections/PopularsTwo';
 import { SectionOne } from '../components/Sections/SectionOne'
+import { SectionTwo } from '../components/Sections/SectionTwo';
 
 
 // Formas de fazer uma chamada API no Next
@@ -23,6 +25,8 @@ export default function Home() {
     <SectionOne/>
     <Highlights/>
     <Populars/>
+    <SectionTwo/>
+    <PopularsTwo/>
 
     </main>
     </>

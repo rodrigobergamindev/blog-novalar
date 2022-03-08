@@ -3,7 +3,7 @@ import styles from './styles.module.scss'
 import Image from 'next/image'
 
 
-export function Populars() {
+export function PopularsTwo() {
 
     return (
         
@@ -11,11 +11,11 @@ export function Populars() {
 
             <div className={styles.pContent}>
 
-                <div className={styles.pSection}>
-                    
-                    <div className={styles.title}>
+              <div className={styles.pSection}>
+
+                <div className={styles.title}>
                     <h1>
-                        Eletrônicos
+                        Receitas e dicas
                     </h1>
 
                     <span>Mais populares</span>
@@ -26,20 +26,20 @@ export function Populars() {
 
                         <div className={styles.popularMain}>
 
-                        <Image src="/images/sections/smarttv.jpg" layout="fill" quality={100}/>
+                        <Image src="/images/sections/pizza.jpg" layout="fill" quality={100}/>
 
                     <div className={styles.popularMainTitle}>
-                        <h2>Como escolher sua nova Smart TV</h2>
+                        <h2>Pizza caseira com rúcula e beterraba</h2>
 
-                        <span>#Tecnologia #TV e vídeo</span>
+                        <span>#Receitas e dicas #Pizza</span>
                      </div>
 
                         </div>
                     
                     <div className={styles.topics}>
 
-                        <h2>Os melhores filmes de aventura dos últimos 10 anos</h2>
-                        <span>#Tecnologia #TV e vídeo</span>
+                        <h2>Receita e alho com abacaxi: pode parecer estranho, mas está em alta</h2>
+                        <span>#Receitas e dicas</span>
                     
                     </div>
 
@@ -47,8 +47,8 @@ export function Populars() {
 
                     <div className={styles.topics}>
 
-                        <h2>Comemorando o dia do Orgulho Geek!</h2>
-                        <span>#Tecnologia #TV e vídeo</span>
+                        <h2>Receitas mais feitas em 2021</h2>
+                        <span>#Receitas e dicas</span>
                     
                     </div>
 
@@ -56,14 +56,11 @@ export function Populars() {
 
                 </div>
 
-         
+                <div className={styles.pSection}>
 
-
-<div className={styles.pSection}>
-    
-    <div className={styles.title}>
+                <div className={styles.title}>
     <h1>
-        Eletrodomésticos
+        Móveis
     </h1>
 
     <span>Mais populares</span>
@@ -75,20 +72,20 @@ export function Populars() {
 
         <div className={styles.popularMain}>
 
-        <Image src="/images/sections/lavaeseca.jpg" layout="fill" quality={100}/>
+        <Image src="/images/sections/sofa.jpg" layout="fill" quality={100}/>
 
     <div className={styles.popularMainTitle}>
-        <h2>Lava e seca: vale a pena comprar?</h2>
+        <h2>Estampa cinza com elementos coloridos</h2>
 
-        <span>#Eletrodomésticos #dicas</span>
+        <span>#Móveis #Dicas</span>
      </div>
 
         </div>
     
     <div className={styles.topics}>
 
-        <h2>Como escolher um bom aspirador de pó no caso de ter pets em casa</h2>
-        <span>#Eletrodomésticos</span>
+        <h2>Como escolher uma boa luminária</h2>
+        <span>#Móveis #Dicas</span>
     
     </div>
 
@@ -96,15 +93,14 @@ export function Populars() {
 
     <div className={styles.topics}>
 
-        <h2>Diferenças entre lareiras para aquecer seu lar</h2>
-        <span>#Eletrodomésticos</span>
+        <h2>Piso laminado Duraflor vale a pena?</h2>
+        <span>#Móveis #Dicas</span>
     
     </div>
 
     </div>
 
-</div>
-
+         </div>
 
             </div>
         </section>

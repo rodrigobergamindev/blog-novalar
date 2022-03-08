@@ -1,0 +1,44 @@
+.sectionTwo {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 408px;
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+
+.sectionTwoContent {
+
+    width: 100%;
+    z-index: 900;
+    background-color: var(--blue-900);
+    padding: 1.5rem;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+    h2 {
+        font-size: 23px;
+        font-weight: 600;
+        color: var(--white);
+        padding-bottom: 0.25rem;
+    }
+    
+    
+
+    span {
+        margin-top: 0.35rem;
+        font-weight: 400;
+        color: var(--yellow-500);
+        font-size: 15px;
+    }
+
+}
