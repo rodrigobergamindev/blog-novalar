@@ -23,7 +23,7 @@ export function PopularsTwo() {
 
                         <div className={styles.popularMain}>
 
-                        <Image src="/images/sections/pizza.jpg" layout="fill" quality={100}/>
+                        <Image src="/images/sections/pizza.jpg" layout="fill" quality={100} priority/>
 
                     <div className={styles.popularMainTitle}>
                         <h2>Pizza caseira com rúcula e beterraba</h2>
@@ -67,7 +67,7 @@ export function PopularsTwo() {
 
                         <div className={styles.popularMain}>
 
-                        <Image src="/images/sections/pizza.jpg" layout="fill" quality={100}/>
+                        <Image src="/images/sections/pizza.jpg" layout="fill" quality={100} priority/>
 
                     <div className={styles.popularMainTitle}>
                         <h2>Pizza caseira com rúcula e beterraba</h2>
@@ -111,7 +111,7 @@ export function PopularsTwo() {
 
         <div className={styles.popularMain}>
 
-        <Image src="/images/sections/sofa.jpg" layout="fill" quality={100}/>
+        <Image src="/images/sections/sofa.jpg" layout="fill" quality={100} priority/>
 
     <div className={styles.popularMainTitle}>
         <h2>Estampa cinza com elementos coloridos</h2>
@@ -156,7 +156,7 @@ export function PopularsTwo() {
 
                         <div className={styles.popularMain}>
 
-                        <Image src="/images/sections/sofa.jpg" layout="fill" quality={100}/>
+                        <Image src="/images/sections/sofa.jpg" layout="fill" quality={100} priority/>
 
                     <div className={styles.popularMainTitle}>
                         <h2>Estampa cinza com elementos coloridos</h2>

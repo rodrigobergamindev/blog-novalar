@@ -16,7 +16,7 @@ export function Footer() {
         
                 
                 <div className={styles.logo}>
-                    <Image src="/images/logo/1x.png" layout="fill" quality={100}/>
+                    <Image src="/images/logo/1x.png" layout="fill" quality={100} priority/>
                 </div>
                 
               

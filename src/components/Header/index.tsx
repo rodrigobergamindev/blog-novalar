@@ -14,7 +14,7 @@ export function Header() {
 
             <div className={styles.logo}>
                
-            <Image src="/images/logo/2x.png" alt="logo blog novalar" layout="fill" quality={100}/>
+            <Image src="/images/logo/2x.png" alt="logo blog novalar" layout="fill" quality={100} priority/>
                 
             </div>
 

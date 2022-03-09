@@ -20,7 +20,7 @@ export function HeaderPosts() {
             <h1>Eletrônicos</h1>
             
             <div className={styles.header}>
-            <Image src="/images/mask-group/mask-group2x.png" layout="fill" quality={100}/>
+            <Image src="/images/mask-group/mask-group2x.png" layout="fill" quality={100} priority/>
 
                 <Link href="/post">
                 <div className={styles.sectionOneContent}>

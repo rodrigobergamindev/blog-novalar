@@ -24,7 +24,7 @@ export function Populars() {
 
                             <div className={styles.popularMain}>
     
-                            <Image src="/images/sections/smarttv.jpg" layout="fill" quality={100}/>
+                            <Image src="/images/sections/smarttv.jpg" layout="fill" quality={100} priority/>
     
                         <div className={styles.popularMainTitle}>
                             <h2>Como escolher sua nova Smart TV</h2>
@@ -68,7 +68,7 @@ export function Populars() {
 
                         <div className={styles.popularMain}>
 
-                        <Image src="/images/sections/smarttv.jpg" layout="fill" quality={100}/>
+                        <Image src="/images/sections/smarttv.jpg" layout="fill" quality={100} priority/>
 
                     <div className={styles.popularMainTitle}>
                         <h2>Como escolher sua nova Smart TV</h2>

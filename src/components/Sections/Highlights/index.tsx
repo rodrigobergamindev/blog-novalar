@@ -13,7 +13,7 @@ export function Highlights() {
 
                 <div className={styles.hlMain}>
 
-                    <Image src="/images/sections/cook.png" layout="fill" quality={100}/>
+                    <Image src="/images/sections/cook.png" layout="fill" quality={100} priority/>
 
                     <div className={styles.hlMainTitle}>
                         <h2>Como deixar sua cozinha visualmente mais limpa</h2>
@@ -27,7 +27,7 @@ export function Highlights() {
                 <div className={styles.hlSecondary}>
 
                     <div className={styles.card}>
-                        <Image src="/images/sections/nintendo.png" layout="fill" quality={100}/>
+                        <Image src="/images/sections/nintendo.png" layout="fill" quality={100} priority/>
 
                         <div className={styles.cardTitle}>
                             <h2>Confira os jogos em promoção na Nintendo Switch</h2>
@@ -40,7 +40,7 @@ export function Highlights() {
 
 
                     <div className={styles.card}>
-                        <Image src="/images/sections/drone.png" layout="fill" quality={100}/>
+                        <Image src="/images/sections/drone.png" layout="fill" quality={100} priority/>
 
                         <div className={styles.cardTitle}>
                             <h2>Melhores microsds para colocar em seu drone</h2>
