@@ -1,9 +1,13 @@
 
 import styles from './styles.module.scss'
 import Image from 'next/image'
+import {useRouter} from 'next/router'
+import Link from 'next/link'
 
 
 export function Footer() {
+
+    const router = useRouter()
 
     return (
         
@@ -18,17 +22,30 @@ export function Footer() {
               
                 <div className={styles.navContent}>
 
-                        <a>Home</a>
+                        <Link href="/">
+                            {
+                                router.asPath === "/" ? 
+                                (
+                                    <span className={styles.activeLink}>
+                                        Home
+                                    </span>
+                                ) 
+                                : 
+                                (
+                                    <span>Home</span>
+                                )
+                            }
+                            </Link>
 
-                        <a>Games</a>
+                        <Link href="/games">Games</Link>
 
-                        <a>TV e vídeo</a>
+                        <Link href="/tv">TV e vídeo</Link>
 
-                        <a>Informática</a>
+                        <Link href="/informatica">Informática</Link>
 
-                        <a>Eletrodomésticos</a>
+                        <Link href="/eletromesticos">Eletrodomésticos</Link>
 
-                        <a>Celulares</a>
+                        <Link href="/celulares">Celulares</Link>
 
                     </div>
 

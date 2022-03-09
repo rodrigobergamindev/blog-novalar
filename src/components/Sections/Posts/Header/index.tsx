@@ -2,6 +2,7 @@
 import styles from './styles.module.scss'
 import Image from 'next/image'
 import {BsChevronRight} from 'react-icons/bs'
+import Link from 'next/link'
 
 
 export function HeaderPosts() {
@@ -21,12 +22,14 @@ export function HeaderPosts() {
             <div className={styles.header}>
             <Image src="/images/mask-group/mask-group2x.png" layout="fill" quality={100}/>
 
+                <Link href="/post">
                 <div className={styles.sectionOneContent}>
                 <h2>Galaxy S22 Ultra: o novo carro-chefe</h2>
 
                 <span>#Telefones e celulares #Tecnologia</span>
 
-        </div>
+                 </div>
+                 </Link>
             </div>
        
 

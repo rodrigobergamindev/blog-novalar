@@ -30,6 +30,12 @@
         font-weight: 600;
         color: var(--white);
         padding-bottom: 0.25rem;
+       
+    }
+
+    h2:hover {
+        cursor: pointer;
+        text-decoration: underline;
     }
     
     

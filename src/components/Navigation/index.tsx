@@ -2,22 +2,55 @@
 import styles from './styles.module.scss'
 import Image from 'next/image'
 import { SearchBox } from './SearchBox'
+import Link from 'next/link'
+import {useRouter} from 'next/router'
+
 
 export function Nav() {
+
+    const router = useRouter()
 
     return (
         <div className={styles.navContainer}>
            <div className={styles.navContent}>
 
-                <a>Home</a>
+                    <Link href="/">
+                            {
+                                router.asPath === "/" ? 
+                                (
+                                    <span className={styles.activeLink}>
+                                        Home
+                                    </span>
+                                ) 
+                                : 
+                                (
+                                    <span>Home</span>
+                                )
+                            }
+                        </Link>
 
-                <a>Eletrônicos</a>
+                <Link href="/posts">
+                            
+                {
+                                router.asPath === "/posts" || router.asPath === "/post" ? 
+                                (
+                                    <span className={styles.activeLink}>
+                                        Eletrônicos
+                                    </span>
+                                ) 
+                                : 
+                                (
+                                    <span>Eletrônicos</span>
+                                )
+                            }
+                    
+                    </Link>
 
-                <a>Eletrodomésticos</a>
+                <Link href="/eletrodomesticos"><span>Eletrodomésticos</span></Link>
 
-                <a>Móveis</a>
+                <Link href="/moveis"><span>Móveis</span></Link>
 
-                <a>Receitas e dicas</a>
+                <Link href="/receitas"><span>Receitas e dicas</span></Link>
 
             
                 <SearchBox/>
