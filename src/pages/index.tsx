@@ -1,5 +1,6 @@
 
 import Head from 'next/head';
+import { Footer } from '../components/Footer';
 import { Highlights } from '../components/Sections/Highlights';
 import { Populars } from '../components/Sections/Populars';
 import { PopularsTwo } from '../components/Sections/PopularsTwo';
@@ -27,6 +28,7 @@ export default function Home() {
     <Populars/>
     <SectionTwo/>
     <PopularsTwo/>
+    <Footer/>
 
     </main>
     </>

@@ -1,0 +1,51 @@
+.footerContainer {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 420px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--blue-900);
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.navContent {
+    max-width: 750px;
+    width: 100%;
+    
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.url {
+    color: var(--yellow-500);
+    font-size: 15px;
+}
+
+.copyright {
+    color: var(--white);
+    font-size: 13px;
+}
+
+.logo {
+    position: relative;
+    width: 257px;
+    height: 75px;
+}
