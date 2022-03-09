@@ -1,0 +1,44 @@
+.headerContainer {
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    height: 408px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.header{
+    position: relative;
+    height: 408px;
+    width: 100%;
+}
+
+.postNav { 
+    font-size: 16px;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+
+    display: flex;
+    align-items: center;
+    
+
+    span {
+        margin-right: 0.25rem;
+    }
+
+    a {
+        margin-right: 0.25rem;
+    }
+}
+
+.activeLink {
+    color: var(--blue-900);
+}
+
+.prevLink {
+    color: var(--gray-100);
+}
