@@ -19,7 +19,7 @@ export default function Posts() {
   return (
     <>
     <Head>
-      <title>Home | Post - Blog Novalar</title>
+      <title>Posts - Blog Novalar</title>
     </Head>
     
     <main className="contentContainer">

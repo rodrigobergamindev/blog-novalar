@@ -16,7 +16,7 @@ export default function Post() {
   return (
     <>
     <Head>
-      <title>Home | Post - Blog Novalar</title>
+      <title>Galaxy S22 ultra: o novo carro-chefe - Blog Novalar</title>
     </Head>
     
     <main className="contentContainer">
