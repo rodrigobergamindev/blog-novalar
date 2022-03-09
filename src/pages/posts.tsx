@@ -5,6 +5,7 @@ import { Populars } from '../components/Sections/Populars';
 import { PopularsTwo } from '../components/Sections/PopularsTwo';
 
 import { HeaderPosts } from '../components/Sections/Posts/Header';
+import { SeeMoreButton } from '../components/SeeMoreButton';
 
 
 
@@ -27,6 +28,7 @@ export default function Posts() {
     <Highlights/>
     <Populars/>
     <PopularsTwo/>
+    <SeeMoreButton/>
 
     </main>
     </>

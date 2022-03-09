@@ -22,11 +22,11 @@ export function Nav() {
             
                 <SearchBox/>
 
-                <a>
+                
                     <button type="button" className={styles.buttonStore}>
                         Acesse nossa loja
                     </button> 
-                </a>
+                
 
            </div>
         </div>
